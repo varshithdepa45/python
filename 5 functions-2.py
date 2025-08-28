@@ -16,3 +16,9 @@ def slice(mystring):
         return mystring[0]
 names=['salaar','devaratha','raisaar']
 print(list(map(slice,names)))
+numbers = [1, 2, 3]
+squared = map(lambda x: x**2, numbers)
+print(list(squared))
+numbers = [1, 2, 3, 4, 5]
+even = filter(lambda x: x % 2 == 0, numbers)
+print(list(even))
